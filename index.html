@@ -29,32 +29,108 @@
     var postbackURL = "https://propush.me/postback?click_id={click_id}&source_id={source_id}&status={status}";
 
     // --- TrafficBack ---
-    var trafficBackURL = "https://example.com/your-offer"; // replace with your monetization URL in dashboard
+    var trafficBackURL = "https://example.com/your-offer";
 
     // --- Facebook in-app browser redirect zone ---
     var fbZoneID = "10414588";
   </script>
   <!-- End Smart Tag Script -->
-<meta name="monetag" content="cfb4e476eb04caa5deb777456b98f838">
-(function(s){s.dataset.zone='10453034',s.src='https://al5sm.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))
+
+  <!-- Monetag Verification -->
+  <meta name="monetag" content="cfb4e476eb04caa5deb777456b98f838">
+
+  <!-- Monetag Popunder -->
+  <script>
+    (function(s){
+      s.dataset.zone='10453034',
+      s.src='https://al5sm.com/tag.min.js'
+    })([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))
+  </script>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f7fa;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 650px;
+      margin: 60px auto;
+      background: #ffffff;
+      padding: 35px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+    h1 {
+      color: #222;
+      margin-bottom: 15px;
+    }
+    p {
+      color: #555;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 25px 0;
+    }
+    ul li {
+      margin: 10px 0;
+      font-size: 15px;
+    }
+    .cta {
+      margin-top: 25px;
+      font-size: 17px;
+      font-weight: bold;
+      color: #0a58ca;
+    }
+    small {
+      display: block;
+      margin-top: 25px;
+      color: #888;
+      font-size: 13px;
+    }
+    footer {
+      text-align: center;
+      padding: 25px;
+      font-size: 14px;
+      color: #666;
+    }
+  </style>
 </head>
+
 <body>
-  <header style="text-align:center; padding:50px;">
-    <h1>Justhi Push Notifications</h1>
-    <p>Subscribe to get instant updates, news, and exclusive offers directly on your device.</p>
-  </header>
 
-  <main style="text-align:center;">
-    <p>Your smart tag is fully integrated with:</p>
-    <ul style="list-style:none; padding:0;">
-      <li>✅ Postback tracking</li>
-      <li>✅ TrafficBack monetization</li>
-      <li>✅ Facebook in-app browser redirect</li>
+  <div class="container">
+    <h1>🔔 Stay Updated with Justhi</h1>
+
+    <p>
+      Subscribe to receive **free updates**, useful tips, important news,
+      and exclusive offers directly on your device.
+    </p>
+
+    <ul>
+      <li>✅ 100% Free subscription</li>
+      <li>✅ No registration required</li>
+      <li>✅ You can unsubscribe anytime</li>
+      <li>✅ Works on mobile & desktop</li>
     </ul>
-  </main>
 
-  <footer style="text-align:center; padding:30px; font-size:14px; color:#555;">
+    <p class="cta">
+      When prompted, click <strong>“Allow”</strong> to subscribe and start receiving updates.
+    </p>
+
+    <small>
+      We respect your privacy. No spam. Notifications are only sent when something useful is available.
+    </small>
+  </div>
+
+  <footer>
     &copy; 2026 Justhi. All rights reserved.
   </footer>
+
 </body>
 </html>
